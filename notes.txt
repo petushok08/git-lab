@@ -1,1 +1,2 @@
+Notes version 2 from feature branch
 Notes changed in main by hotfix
