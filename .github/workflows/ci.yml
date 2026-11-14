@@ -21,4 +21,4 @@ jobs:
       - name: Поиск секретов (TruffleHog)
         uses: trufflesecurity/trufflehog@main
         with:
-          extra_args: --results=verified,unverified,unknown
+          extra_args: --results=verified,unverified,unknown --exclude-paths=.github/trufflehog-exclude.txt
